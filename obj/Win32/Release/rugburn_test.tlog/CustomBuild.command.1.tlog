@@ -1,0 +1,2 @@
+^C:\USERS\LBARC\DESKTOP\RUGBURN-MASTER\SRC\STUBS.ASM
+ml /c /FoC:\Users\lbarc\Desktop\rugburn-master\out\Win32\Release\stubs.obj C:\Users\lbarc\Desktop\rugburn-master\src\stubs.asm
