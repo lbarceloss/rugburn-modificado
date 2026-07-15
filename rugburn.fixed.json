@@ -1,0 +1,12 @@
+{
+  "UrlRewrites": {
+    "http://[a-zA-Z0-9:.]+/(.*)": "http://pangya.com.br/$0"
+  },
+  "PortRewrites": [
+    {
+      "FromPort": 10803,
+      "ToPort": 10303,
+      "ToAddr": "189.50.61.100"
+    }
+  ]
+}
