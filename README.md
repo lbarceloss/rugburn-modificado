@@ -1,4 +1,10 @@
-## ESSE PROJETO FOI MODIFICADO POR MIM TENTEI TRAZER TUDO QUE EU FIZ NA PROJECTG.EXE PARA O IJL15.DLL, PODE SER QUE ALGUMAS COISAS NAO FUNCIONEM TIVE QUE ADPTAR QUASE TUDO PARA FUNCIONAR NA IJL15.DLL IREI FAZER O PORTE DE TUDO PARA IJL15.DLL COM O DECORER DO TEMPO POIS E MUITA COISA.
+Galera, tem muita coisa nova chegando, mas pode ser que algo ainda não funcione perfeitamente. Como fiz toda a base direto no ProjectG.exe, fui adaptando o que deu para a ijl15.dll. Porém, o sistema de Ladder, por exemplo, fica gigante para reescrever e injetar na DLL agora.
+
+A ideia é fazer isso aos poucos: depois que tudo estiver funcionando redondo, começo a saga de migrar o código para a DLL. E já aviso que vamos precisar expandir para ijl16.dll, ijl17.dll e ijl18.dll, porque o volume de modificações é absurdo!
+
+O recurso do Wireframe eu trouxe idêntico ao do vídeo para servir de demonstração para vocês. O porte completo dele é enorme — são 127 KB de código puro e cerca de 3 mil linhas para adaptar. Já o Ladder completo é ainda maior, com mais de 8 mil linhas. Não dá para enfiar tudo isso de uma vez na ijl15.dll agora, então vou fazendo por etapas depois que tudo estiver pronto.
+
+Lá você encontra exemplos de tudo! Tem tanto o passo a passo para forçar o funcionamento de eventos quanto o fluxo normal, sem o force. Com as duas opções em mãos, você tem tudo o que precisa para aprender e fazer do jeito que preferir. Tudo esta dessa forma para que voce tenha os 2 caminhos com exemplo para seguir a escolha e sua.
 
 # Rugburn :fire:
 _This project is not endorsed by or related to Ntreev Soft Corporation. See [Trademark Notice](#trademark-notice) for more information._
